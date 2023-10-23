@@ -25,8 +25,8 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Dark Nero V9
- * @description : Dark Nero V9,A Multi-functional whatsapp bot.
+ * @project_name : Forzen MD V1
+ * @description : Forzen MD V1,A Multi-functional whatsapp bot.
  **/
 
 
