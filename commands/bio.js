@@ -60,8 +60,8 @@ const maru =`⚖️ *ғᴏʀᴢᴇɴ ᴍᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀ�
 
 ⭕ *PERSONAL GITHUB* - https://github.com/yasiyaofc/
 
-📳 *CONTACT MR. DARKALPHA* - http://wa.me/94760018802
-📳 *CONTACT MR. DARKALPHA* - http://wa.me/94705624363
+📳 *CONTACT MR. YASIYA* - http://wa.me/94760018802
+📳 *CONTACT MR. YASIYA* - http://wa.me/94705624363
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -99,7 +99,7 @@ const maru =`⚖️ *ғᴏʀᴢᴇɴ ᴍᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀ�
 
 ⭕ *PERSONAL GITHUB* - https://github.com/induwaraofc
 
-📳 *CONTACT MR.CHAMIYA* - http://wa.me/94
+📳 *CONTACT MR.INDUWARA* - http://wa.me/94
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
