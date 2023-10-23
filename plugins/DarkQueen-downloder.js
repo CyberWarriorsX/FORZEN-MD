@@ -5,7 +5,7 @@ const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
-//𝑫𝑨𝑹𝑲 𝑸𝑼𝑬𝑬𝑵 𝑴𝑫
+//ғᴏʀᴢᴇɴ ᴍᴅ
 cmd({
             pattern: "tts",
             desc: "text to speech.",
@@ -87,11 +87,11 @@ cmd({
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
                 citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-💿 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+💿 *𝗩𝐈𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
 📎 *𝗟𝗜𝗡𝗞* : ${anu.url}
-💎 *𝗔𝗨𝗧𝗛𝗢𝗥:* ${anu.author.name}`)
+🤹‍♂️ *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*`)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -109,8 +109,8 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `🎩 *_ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴍᴅ_*🎩
-🎭 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴛᴇᴀᴍ_*🎭`,
+                        caption: `❄️ *_ғᴏʀᴢᴇɴ ᴍᴅ_*❄️
+👨‍🔧 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ_*👨‍🔧`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
