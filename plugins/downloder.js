@@ -87,11 +87,12 @@ cmd({
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
                 citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-💿 *𝗩𝐈𝗘𝗪𝗦:* ${anu.views}
+👁️ *𝗩𝐈𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
 📎 *𝗟𝗜𝗡𝗞* : ${anu.url}
-🤹‍♂️ *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*`)
+
+🤹‍♂️ *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ* 🤹‍♂️`)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -283,11 +284,12 @@ cmd({
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
             citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-💿 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+👁️ *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
 📎 *𝗟𝗜𝗡𝗞* : ${anu.url}
-💎 *𝗔𝗨𝗧𝗛𝗢𝗥:* ${anu.author.name}`)
+
+🤹‍♂️ *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ* 🤹‍♂️`)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
