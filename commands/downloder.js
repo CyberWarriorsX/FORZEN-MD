@@ -110,7 +110,7 @@ cmd({
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
                         caption: `❄️ *ғᴏʀᴢᴇɴ ᴍᴅ* ❄️
-👨‍🔧*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ*👨‍🔧`,
+*👨‍🔧ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ👨‍🔧*`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
