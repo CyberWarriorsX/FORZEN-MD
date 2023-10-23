@@ -4,8 +4,8 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @author : SamPandey001 <https://github.com/yasiyaofc>
+ * @description : Forzen-MD,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -196,8 +196,8 @@ cmd({
                 link = text.split(" ")[0];
                 anu = await axios.get(`https://tinyurl.com/api-create.php?url=${link}`);
                 citel.reply(`*🛡️Your Shortened URL*\n\n${anu.data}
-🎩 *_ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴍᴅ_*🎩
-🎭 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ɴᴏᴛɪʏᴀ_*🎭`);
+❄️ *ғᴏʀᴢᴇɴ ᴍᴅ* ❄️
+👨‍🔧 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ* 👨‍🔧`);
             } catch (e) {
                 console.log(e);
             }
