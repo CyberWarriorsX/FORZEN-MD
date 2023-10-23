@@ -7,7 +7,7 @@ cmd({
         alias: ["sirasanews", "sn", "sirasa news"],
         desc: "Sends info about repo.",
         category: "general",
-        react: "🎀",
+        react: "📰",
         filename: __filename,
     },
     async(Void, citel) => {
@@ -18,8 +18,8 @@ cmd({
 ʟɪɴᴋ: ${link}
 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ: ${description}
 
-🎩 *_ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴍᴅ_*🎩
-🎭 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴛᴇᴀᴍ_*🎭
+❄️ *ғᴏʀᴢᴇɴ ᴍᴅ* ❄️
+👨‍🔧 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ* 👨‍🔧
 `
         let buttonMessaged = {
             image: {url: image},
@@ -29,7 +29,7 @@ cmd({
             contextInfo: {
                 externalAdReply: {
                     title: "FORZEN MD SIRASA NEWS",
-                    body: "© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴛᴇᴀᴍ",
+                    body: "© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
