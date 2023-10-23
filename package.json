@@ -1,7 +1,7 @@
 {
                "name": "forzen-md",
                "version": "1.0.5",
-               "description": "Multi device whatsapp bot by X-Notiya.",
+               "description": "Multi device whatsapp bot by Yasiya.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
