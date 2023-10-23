@@ -1,9 +1,9 @@
-const config = require('../config')
-const { cmd, commands } = require('../command')
+const config = require('../lib')
+const { cmd, commands } = require('../lib')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "team",
-    react: "™👨‍✈️",
+    react: "👨‍✈️",
     alias: ["forzen_team"],
     desc: "FORZEN MD Bot Script",
     category: "extra",
