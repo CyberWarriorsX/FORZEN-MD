@@ -5,7 +5,7 @@ const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
-//𝑫𝑨𝑹𝑲 𝑸𝑼𝑬𝑬𝑵 𝑴𝑫
+//𝐅𝐎𝐑𝐙𝐄𝐍 𝐌𝐃
 cmd({
             pattern: "tts",
             desc: "text to speech.",
