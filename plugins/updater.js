@@ -20,7 +20,7 @@ cmd({
 
         async(Void, citel, text,{ isCreator }) => {
 
-            if (!isCreator) return citel.reply('❍═❲*OWNER CMD*❳═❍')
+            if (!isCreator) return citel.reply('❍═❲*🧞‍♀️OWNER CMD🧞‍♀️*❳═❍')
 
             let commits = await DB.syncgit()
 
