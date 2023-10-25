@@ -20,7 +20,7 @@ Pmd.cmd({
 
         var inital = new Date().getTime();
 
-        const { key } = await Void.sendMessage(citel.chat, {text: '```Testing Ping Forzen MD...```'});
+        const { key } = await Void.sendMessage(citel.chat, {text: '```TESTING PING FORZEN MD...```'});
 
         var final = new Date().getTime();
 
