@@ -1,5 +1,5 @@
 {
-  "name": "FORZEN-MD",
+  "name": "FORZEN-BETA-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/0b5a7839e8ee21874921e.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"],
@@ -44,6 +44,11 @@
      "value": "remove",
      "required" :false
     },
+     "ALWAYS_ONLINE": {
+    "description": "Put action for alwaysonline",
+     "value": "true",
+     "required" :false
+    },
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
@@ -64,7 +69,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94760018802"
+       "value": "94705624363"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@yasithasamujit2/FORZEN-MD"
@@ -76,10 +81,10 @@
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
+    "value": ""
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
+    "description": "Put the theme name you want to use. Avilable themes are FORZEN-MD,YASIYA-OFC and INDUVARA (DO NOT CHANG)",
      "value": "FORZEN-MD"
   },
     "WORKTYPE": {
