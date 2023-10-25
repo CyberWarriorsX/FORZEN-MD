@@ -86,9 +86,9 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-🎥 *ғᴏʀᴢᴇɴ-ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎥
+                citel.reply(`🎥 *ғᴏʀᴢᴇɴ-ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎥
 
+📋 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 👁️ *𝗩𝐈𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
@@ -285,9 +285,10 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-🎧 *ғᴏʀᴢᴇɴ-ᴍᴅ SONG DOWNLODER* 🎧
-
+            citel.reply(`🎧 *ғᴏʀᴢᴇɴ-ᴍᴅ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🎧
+            
+🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
+📋 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 👁️ *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
