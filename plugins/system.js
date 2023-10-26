@@ -31,13 +31,13 @@ cmd({
                 return
             }
             let buttonMessaged = {
-                image: { url: 'https://replit.com/@X-Notiya/DARK-QUEEN-MD-Qr?v=1' },
+                image: { url: 'https://replit.com/@yasithasamujith2/FORZEM-MD' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: '🧞‍♀️𝑫𝑨𝑹𝑲 𝑸𝑼𝑬𝑬𝑵 𝑴𝑫🧞‍♀️',
+                        title: '❄️ ғᴏʀᴢᴇɴ ᴍᴅ ❄️',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -221,43 +221,6 @@ cmd({
                 return citel.reply("Please mention any user.❌ ")
             }
 
-
-        }
-    )
-    //---------------------------------------------------------------------------
-cmd({
-            pattern: "alive",
-            category: "general",
-            filename: __filename,
-            desc: "is bot alive??"
-        },
-        async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
-            const alivtxt = `
-🧞‍♀️𝑫𝑨𝑹𝑲 𝑸𝑼𝑬𝑬𝑵 𝑴𝑫🧞‍♀️
-
-
-❑ 💎 *𝗩𝗘𝗥𝗦𝗜𝗢𝗡:-* _0.0.1_
-❑ 💎 *𝗨𝗣𝗧𝗜𝗠𝗘:-* _${runtime(process.uptime())}_
-❑ 💎 *𝗢𝗪𝗡𝗘𝗥:-* _${Config.ownername}_
-❑ 💎 *𝗕𝗥𝗔𝗡𝗖𝗛:-* _${Config.BRANCH}_
-
-${alivemessage}
-
-🎩 *_ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴍᴅ_*🎩
-🎭 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴛᴇᴀᴍ_*🎭
-`;
-            let aliveMessage = {
-                image: {
-                    url: await botpic(),
-                },
-                caption: alivtxt,
-                footer: tlang().footer,
-                headerType: 4,
-            };
-             return Void.sendMessage(citel.chat, aliveMessage, {
-                quoted: citel,
-            });
 
         }
     )
