@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name Forzen-Md",
                 "stop": "pm2 stop Forzen-Md"
                 },
-               "author": "X-Notiya",
+               "author": "Yasiya-OFC",
               "dependencies": {
                        "@sampandey001/baileys": "latest",
                        "@adiwajshing/keyed-db": "^0.2.4",
