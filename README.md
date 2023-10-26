@@ -10,7 +10,7 @@
     
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨:+𝑭𝑶𝑹𝒁𝑬𝑵+𝑴𝑫+𝑩𝑶𝑻;ᴏᴡɴᴇʀ+ʙʏ+ʏᴀsɪʏᴀ+ᴏғғɪᴄɪᴀʟ;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+ʏᴀsɪʏᴀ+ᴀɴᴅ+ɪɴᴅᴜᴡᴀʀᴀ;ᴘᴏᴡᴇʀᴅ+ʙʏ:+ᴄʏʙᴇʀ+ᴡᴀʀʀɪᴏʀs+x+ᴛᴇᴀᴍ)](https://git.io/typing-svg)
 
-# **[» Join Public Group](https://chat.whatsapp.com/COMMING_SOON...)**
+# **[» Join Supporter Group](https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t)**
 
 ## ```HEROKU DEPLOYMENT```
 
