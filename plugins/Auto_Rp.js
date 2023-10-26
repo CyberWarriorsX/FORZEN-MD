@@ -10,7 +10,7 @@ cmd({
             pattern: "හායි",
             desc: "(menu cmdlist).",
             category: "list",
-            react: "👩‍💻",
+            react: "👋",
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
@@ -35,7 +35,7 @@ cmd({
                     url: await botpic(),
                 },
                 caption: `
-*හායි යාලුවෙ..👋මොකො කරන්නෙ..🧞‍♀️*
+*හායි යාලුවෙ..👋මොකො කරන්නෙ..?*
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -51,7 +51,7 @@ cmd({
             pattern: "Mk",
             desc: "(menu cmdlist).",
             category: "list",
-            react: "👩‍💻",
+            react: "👋",
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
@@ -76,7 +76,7 @@ cmd({
                     url: await botpic(),
                 },
                 caption: `
-*මොකුත් නැ අනෙ ඔයා මොනවද කරන්නෙ..🧞‍♀️*
+*මොකුත් නැ අනෙ ඔයා මොනවද කරන්නෙ..🧞‍♀?*
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -92,7 +92,7 @@ cmd({
             pattern: "Gn",
             desc: "(menu cmdlist).",
             category: "list",
-            react: "👩‍💻",
+            react: "👋",
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
