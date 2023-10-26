@@ -196,7 +196,7 @@ cmd({
                 link = text.split(" ")[0];
                 anu = await axios.get(`https://tinyurl.com/api-create.php?url=${link}`);
                 citel.reply(`*🛡️Your Shortened URL*\n\n${anu.data}
-❄️ *_ғᴏʀᴢᴇɴ ᴍᴅ_*❄️
+❄️ *_ғᴏʀᴢᴇɴ ᴍᴅ_* ❄️
 👨‍🔧 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ_*👨‍🔧`);
             } catch (e) {
                 console.log(e);
