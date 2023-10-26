@@ -45,7 +45,7 @@
      "required" :false
     },
      "ALWAYS_ONLINE": {
-    "description": "Put action for alwaysonline",
+    "description": "Bot Always Online",
      "value": "true",
      "required" :false
     },
@@ -84,7 +84,7 @@
     "value": ""
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are FORZEN-MD,YASIYA-OFC and INDUVARA (DO NOT CHANG)",
+    "description": "Put the theme name you want to use. Avilable themes are FORZEN-MD,YASIYA-OFC and INDUVARA (DON'T CHANGE THIS)",
      "value": "FORZEN-MD"
   },
     "WORKTYPE": {
