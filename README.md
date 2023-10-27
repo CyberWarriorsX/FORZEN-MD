@@ -19,7 +19,7 @@
 
 ----------
 <a aria-label="Join our chats" href="https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img alt="whatsapp" src="https://img.shields.io/badge/Join Supporter Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   
   </a>
   <a aria-label="Secktor is free to use" href="https://github.com/SamPandey001/Secktor-Md/blob/main/LICENCE" target="_blank">
@@ -45,17 +45,14 @@
 ----------
 ㅤ
 
-## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
-
-----------
-ㅤ
+ ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
 ## ⚜️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ ⚜️
 ㅤ
 ## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
 ㅤ
 ## ✨ᴘᴏᴡᴇʀᴅ ʙʏ ᴄʏʙᴇʀ ᴡᴀʀʀɪᴏʀs x ᴛᴇᴀᴍ✨
 ㅤ
----------
+
 
 ㅤㅤㅤ 
 ## **`💃 FORZEN MD BOT OWNERS,`**
