@@ -18,13 +18,14 @@
 ---
 # **[» Join Supporter Group](https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t)**
 
----
-
+----------
+## ```SCAN QR CODE```
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/MR-KALINDU-BOT)
 ---
 ## ```HEROKU DEPLOYMENT```
 
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
----
+----------
 ㅤ
 
 ## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
