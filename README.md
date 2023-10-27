@@ -1,3 +1,4 @@
+  <div align="center">
 ## ❄️ 𝑭𝑶𝑹𝒁𝑬𝑵 𝑴𝑫 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑩𝑶𝑻 ❄️ 
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=17202A&lines=🌸+Version+1+.+0+🌸;🌸+Version+1+.+0+🌸)](https://git.io/typing-svg)
@@ -36,7 +37,7 @@
 
 ## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
 
----ㅤㅤ
+----------ㅤㅤ
 ## ⚜️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ ⚜️
 ㅤ
 ## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
