@@ -36,11 +36,12 @@
 
 ●.  ***Click [FORK](https://github.com/yasiyaofc/FORZEN-MD/fork)***
 
-## ```SCAN QR CODE```
-[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/MR-KALINDU-BOT)
----
-## ```HEROKU DEPLOYMENT```
+```SCAN QR CODE```
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@yasithasamujit/FORZEN-MD)
 
+---
+
+```HEROKU DEPLOYMENT```
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
 
 ----------
