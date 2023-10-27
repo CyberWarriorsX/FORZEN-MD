@@ -170,7 +170,7 @@ cmd({
                 let text = tiny(
                     "Fancy text generator\n\nExample: .fancy 23 DARK QUEEN BOT\n\n"
                 );
-                listall("DARK QUEEN MD V1").forEach((txt, num) => {
+                listall("FORZEN MD MD V1").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
