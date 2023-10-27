@@ -19,6 +19,12 @@
 # **[» Join Supporter Group](https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t)**
 
 ----------
+●. ***Get a Mongodb uri from [Clever-Cloud](https://api.clever-cloud.com/v2/session/login).***
+
+●. ***Get a Mongodb uri from [railway.app](https://railway.app).***
+
+●.  ***Click [FORK](https://github.com/yasiyaofc/FORZEN-MD/fork)***
+
 ## ```SCAN QR CODE```
 [![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@KaliduGaweshana/MR-KALINDU-BOT)
 ---
