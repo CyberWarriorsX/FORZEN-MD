@@ -42,19 +42,9 @@
 ## ```HEROKU DEPLOYMENT```
 
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
+
 ----------
 ㅤ
-
- ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
-## ⚜️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ ⚜️
-ㅤ
-## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
-ㅤ
-## ✨ᴘᴏᴡᴇʀᴅ ʙʏ ᴄʏʙᴇʀ ᴡᴀʀʀɪᴏʀs x ᴛᴇᴀᴍ✨
-ㅤ
-
-
-ㅤㅤㅤ 
 ## **`💃 FORZEN MD BOT OWNERS,`**
 ㅤ
 
