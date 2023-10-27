@@ -11,23 +11,23 @@
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨:+𝑭𝑶𝑹𝒁𝑬𝑵+𝑴𝑫+𝑩𝑶𝑻;ᴏᴡɴᴇʀ+ʙʏ+ʏᴀsɪʏᴀ+ᴏғғɪᴄɪᴀʟ;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+ʏᴀsɪʏᴀ+ᴀɴᴅ+ɪɴᴅᴜᴡᴀʀᴀ;ᴘᴏᴡᴇʀᴅ+ʙʏ:+ᴄʏʙᴇʀ+ᴡᴀʀʀɪᴏʀs+x+ᴛᴇᴀᴍ)](https://git.io/typing-svg)
 
 # **[» Join Supporter Group](https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t)**
-
+ㅤ
 ## ```HEROKU DEPLOYMENT```
 
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
-#
-
+ㅤ
+ㅤ
 ## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
-#
+ㅤ
 ## ⚜️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ ⚜️
-
+ㅤ
 ## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
-
+ㅤ
 ## ✨ᴘᴏᴡᴇʀᴅ ʙʏ ᴄʏʙᴇʀ ᴡᴀʀʀɪᴏʀs x ᴛᴇᴀᴍ✨
-
- 
+ㅤ
+ㅤㅤ 
 ## **`💃 FORZEN MD BOT OWNERS,`**
-
+ㅤ
 🤹‍♂️|**[`YASIYA OFC`]**|
 
  <p align="center">  
@@ -35,8 +35,8 @@
     <img alt="FORZEN MD MD OWNER" height="80" src="https://telegra.ph/file/df917a1b5f3a35e15f82c.jpg">
 
 **[» Contact For](https://wa.me/+94760018802)**
-#
- #
+ㅤ
+ ㅤ
  
 ⚜️|**[`MR INDUVARA`]**|
 
@@ -46,7 +46,7 @@
  
 **[» Contact For](https://wa.me/+94719735716)**
   
-#
- #
-  #
+ㅤ
+ ㅤ
+  ㅤ
 `Release date:- comming soon`
