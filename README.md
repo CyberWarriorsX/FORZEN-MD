@@ -20,12 +20,13 @@
 
 ---
 
+---
 ## ```HEROKU DEPLOYMENT```
 
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
-ㅤ
-ㅤ
 ---
+ㅤ
+
 ## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
 
 ---ㅤㅤ
@@ -34,12 +35,12 @@
 ## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
 ㅤ
 ## ✨ᴘᴏᴡᴇʀᴅ ʙʏ ᴄʏʙᴇʀ ᴡᴀʀʀɪᴏʀs x ᴛᴇᴀᴍ✨
----ㅤ
+ㅤ
 
----ㅤㅤㅤ 
+ㅤㅤㅤ 
 ## **`💃 FORZEN MD BOT OWNERS,`**
 ㅤ
-ㅤ
+---
 🤹‍♂️|**[`YASIYA OFC`]**|
 
  <p align="center">  
@@ -47,9 +48,9 @@
     <img alt="FORZEN MD MD OWNER" height="80" src="https://telegra.ph/file/df917a1b5f3a35e15f82c.jpg">
 
 **[» Contact For](https://wa.me/+94760018802)**
-ㅤ---
+ㅤ
  ㅤ
- 
+ ---
 ⚜️|**[`MR INDUVARA`]**|
 
  <p align="center">  
@@ -57,7 +58,7 @@
     <img alt="FORZEN MD OWNER" height="80" src="https://telegra.ph/file/f477e530b93d866c664b1.jpg">
  
 **[» Contact For](https://wa.me/+94719735716)**
-ㅤ---
+ㅤ
 ㅤㅤㅤ
 ---
 `Release date:- comming soon`
