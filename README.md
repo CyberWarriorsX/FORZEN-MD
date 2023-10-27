@@ -7,20 +7,27 @@
  <a href="[https://telegra.ph/file/953048fb3aa3aae12a12a.jpg](https://telegra.ph/file/0b5a7839e8ee21874921e.jpg)">
     <img alt="FORZEN MD" height="300" src="https://telegra.ph/file/0b5a7839e8ee21874921e.jpg">
 
+![forks](https://img.shields.io/github/forks/yasiyaofc/FORZEN-MD?label=Forks&style=social)
+
+![stars](https://img.shields.io/github/stars/yasiyaofc/FORZEN-MD?style=social)
+
+
     
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨:+𝑭𝑶𝑹𝒁𝑬𝑵+𝑴𝑫+𝑩𝑶𝑻;ᴏᴡɴᴇʀ+ʙʏ+ʏᴀsɪʏᴀ+ᴏғғɪᴄɪᴀʟ;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+ʏᴀsɪʏᴀ+ᴀɴᴅ+ɪɴᴅᴜᴡᴀʀᴀ;ᴘᴏᴡᴇʀᴅ+ʙʏ:+ᴄʏʙᴇʀ+ᴡᴀʀʀɪᴏʀs+x+ᴛᴇᴀᴍ)](https://git.io/typing-svg)
 
 # **[» Join Supporter Group](https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t)**
-ㅤ
+
+---
+
 ## ```HEROKU DEPLOYMENT```
 
 # [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
 ㅤ
 ㅤ
-ㅤ
+---
 ## ⚖️ FORZEN MD WHATSAPP BOT ⚖️ 
 
-ㅤㅤ
+---ㅤㅤ
 ## ⚜️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ ⚜️
 ㅤ
 ## 🤹‍♂️ ᴏᴡɴᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 🤹‍♂️
@@ -50,6 +57,5 @@
  
 **[» Contact For](https://wa.me/+94719735716)**
 ㅤ
-
 ㅤㅤㅤ
 `Release date:- comming soon`
