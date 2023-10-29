@@ -282,12 +282,20 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-💿 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
-👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
-⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
-📎 *𝗟𝗜𝗡𝗞* : ${anu.url}
-💎 *𝗔𝗨𝗧𝗛𝗢𝗥:* ${anu.author.name}`)
+            citel.reply(`*FORZEN MD SONG DOWNLOADER* 🎶
+
+*🎶 Title : ${anu.title}*
+
+📁 Size : ${sizes}
+
+📺 Views : ${anu.views}
+
+🕹️ Duration : ${anu.timestamp}
+
+🔗 Url :  ${anu.url}
+
+*ғᴏʀᴢᴇɴ ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*`)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
