@@ -5,7 +5,7 @@ const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
-//𝑫𝑨𝑹𝑲 𝑸𝑼𝑬𝑬𝑵 𝑴𝑫
+//ғᴏʀᴢᴇɴ ᴍᴅ
 cmd({
             pattern: "tts",
             desc: "text to speech.",
@@ -86,12 +86,15 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply(`🧞‍♀️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-💿 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+                citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎶
+            
+❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
+📺 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
-📎 *𝗟𝗜𝗡𝗞* : ${anu.url}
-💎 *𝗔𝗨𝗧𝗛𝗢𝗥:* ${anu.author.name}`)
+🔗 *𝗟𝗜𝗡𝗞* : ${anu.url}
+                      
+👨‍🔧 _*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ*_ 👨‍🔧`)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -109,8 +112,8 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `🎩 *_ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴍᴅ_*🎩
-🎭 *_ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴅᴀʀᴋ Qᴜᴇᴇɴ ᴛᴇᴀᴍ_*🎭`,
+                        caption: `❄️ *_ғᴏʀᴢᴇɴ ᴍᴅ_* ❄️
+👨‍🔧_*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ*_👨‍🔧`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -283,19 +286,14 @@ cmd({
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
             citel.reply(`*FORZEN MD SONG DOWNLOADER* 🎶
-
-*🎶 Title : ${anu.title}*
-
-📁 Size : ${sizes}
-
-📺 Views : ${anu.views}
-
-🕹️ Duration : ${anu.timestamp}
-
-🔗 Url :  ${anu.url}
-
-*ғᴏʀᴢᴇɴ ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*`)
+            
+❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
+📺 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
+⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
+🔗 *𝗟𝗜𝗡𝗞* : ${anu.url}
+                      
+👨‍🔧 _*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ ᴀɴᴅ ɪɴᴅᴜᴡᴀʀᴀ*_ 👨‍🔧`)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
