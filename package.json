@@ -87,10 +87,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/CyberWarriorsX/FORZEN-MD.git"
+                 "url": "git+https://github.com/CyberWarriorsX/FORZEN-MD4.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/CyberWarriorsX/FORZEN-MD/issues"
+                 "url": "https://github.com/CyberWarriorsX/FORZEN-MD4/issues"
                   },
-                 "homepage": "https://github.com/CyberWarriorsX/FORZEN-MD#readme"
+                 "homepage": "https://github.com/CyberWarriorsX/FORZEN-MD4#readme"
                   }
