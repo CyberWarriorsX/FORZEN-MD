@@ -164,7 +164,7 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-🔰 *${tlang().title}* 🔰
+❄️ *ғᴏʀᴢᴇɴ-ᴍᴅ* ❄️
 *🌟Description: *FORZEN MD WHATSAPP USER BOT SYSTEM INFO.*
 
 *⚡Speed:* ${latensie.toFixed(4)} ms
