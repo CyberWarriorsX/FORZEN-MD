@@ -117,11 +117,17 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/yasiyaofc/FORZEN-MD')
         let cap = `Hey ${citel.pushName}\n
+	
 *⭐ Total Stars:* ${data.stargazers_count} stars
+
 *🍽️ Forks:* ${data.forks_count} forks
+
 *🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
+
 *Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
+
 *Bot Owner:wa.me/+94760018802*
+
 https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -147,7 +153,7 @@ https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
 )
 //---------------------------------------------------------------------------
 cmd({
-        pattern: "status",
+        pattern: "system",
         alias: ["about"],
         desc: "To check bot status",
         category: "general",
@@ -159,7 +165,7 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+*🌟Description: *A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.*
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.0.0
