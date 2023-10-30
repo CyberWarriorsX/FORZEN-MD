@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: Secktor-Support*\n*Group Link:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbC`,
+            caption: `*Group Name: FORZEN MD-Support*\n*Group Link:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t`,
         });
 
     }
@@ -168,7 +168,7 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
+══✪〘   *TAG ALL SYSTEM FORZEN MD*   〙✪══
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
@@ -650,7 +650,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "grouppic",
+            pattern: "setppgroup",
             desc: "Sets a profile pic in Group..",
             category: "group",
             filename: __filename,
