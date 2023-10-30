@@ -12,7 +12,7 @@ cmd({
             if (!isCreator) return citel.reply('This command is only for my owner 🚫')
             let commits = await DB.syncgit()
             if (commits.total === 0) {
-                citel.reply(`Hey ${citel.pushName}. You have latest version installed.✅`)
+                citel.reply(`Hey FORZEN MD User ${citel.pushName}. You have latest version installed.✅`)
             } else {
                 let update = await DB.sync()
                   let buttonMessaged = {
