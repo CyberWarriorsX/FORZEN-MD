@@ -89,7 +89,7 @@ cmd({
                 citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎶
             
 ❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-📺 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
 🔗 *𝗟𝗜𝗡𝗞* : ${anu.url}
@@ -130,7 +130,7 @@ cmd({
                  Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
                  return fs.unlinkSync(`./${randomName}`);
                 } else {
-                    citel.reply(`❌ File size bigger than 100mb.`);
+                    citel.reply(`❌ File size bigger than 100mb using for .ytdoc cmd.`);
                 }
                 return fs.unlinkSync(`./${randomName}`);      
 
@@ -288,7 +288,7 @@ cmd({
             citel.reply(`*FORZEN MD SONG DOWNLOADER* 🎶
             
 ❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
-📺 *𝗩𝗢𝗘𝗪𝗦:* ${anu.views}
+📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
 🔗 *𝗟𝗜𝗡𝗞* : ${anu.url}
