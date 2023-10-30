@@ -39,7 +39,7 @@ cmd({
                             .save()
                         return citel.reply(' Antilink Enabled Successfully')
                     } else {
-                        if (checkgroup.antilink == "true") return citel.reply("Antilink was alredy  enabled here.")
+                        if (checkgroup.antilink == "true") return citel.reply("Antilink was alredy  enabled here.*")
                         await sck.updateOne({ id: citel.chat }, { antilink: "true" })
                         citel.reply('Enabled antilink in current chat.')
                         return
