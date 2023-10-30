@@ -121,7 +121,7 @@ cmd({
 *🍽️ Forks:* ${data.forks_count} forks
 *🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
 *Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
-*Bot Owner:wa.me/+94760018802*-
+*Bot Owner:wa.me/+94760018802*
 https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -130,7 +130,7 @@ https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "FORZEN-repo",
+                    title: "FORZEN-MD",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
