@@ -165,12 +165,17 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description: *A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.*
+*🌟Description: *FORZEN MD WHATSAPP USER BOT SYSTEM INFO.*
+
 *⚡Speed:* ${latensie.toFixed(4)} ms
+
 *🚦Uptime:* ${runtime(process.uptime())}
+
 *🕸Version:* 1.0.0
+
 *👤Owner:*  ${Config.ownername}
-*Powered by YASIYA-OFC*
+
+_*Powered by YASIYA-OFC*_
 `;
         let buttonMessaged = {
             image: {
