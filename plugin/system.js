@@ -114,7 +114,7 @@ cmd({
         if(mime !='videoMessage' && mime !='imageMessage' ) return await citel.reply("Uhh Please, Reply To An Image/Video")
         let media = await Void.downloadAndSaveMediaMessage(citel.quoted);
         let anu = await TelegraPh(media);
-        await citel.reply('*Here is URL of your media.\n'+util.format(anu));
+        await citel.reply('*Here is URL of your media.*\n'+util.format(anu));
         return await fs.unlinkSync(media);
     })
 
