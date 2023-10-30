@@ -36,7 +36,7 @@
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
-     "value": "chat.whatsapp.com,fb.com,instagram.com",
+     "value": "chat.whatsapp.com",
      "required" :false
     },
      "ANTILINK_ACTION": {
@@ -84,7 +84,7 @@
     "value": ""
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are FORZEN-MD,YASIYA-OFC and INDUWARA (DON'T CHANGE THIS)",
+    "description": "Put the theme name you want to use. Avilable themes are FORZEN-MD (DON'T CHANGE THIS)",
      "value": "FORZEN-MD"
   },
     "WORKTYPE": {
