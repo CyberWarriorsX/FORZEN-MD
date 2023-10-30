@@ -1,12 +1,11 @@
-
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : BLACK-HUNTER
- * @author : MR-SACHIYA1 <https://github.com/MR-SACHIYA1>
- * @description : BLACK-HUNTER,A Multi-functional whatsapp bot.
+ * @project_name : FORZEN-MD
+ * @author : YASIYA-OFC <https://github.com/yasiyaofc>
+ * @description : FORZEN-MD,A Multi-functional whatsapp bot.
  * @version 0.0.1
  **/
 
@@ -38,12 +37,12 @@ cmd({
         },
         async(Void, citel, text) => {
             if (text) {
-                let h = await getBuffer(`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${text}`)
+                let h = await getBuffer(`https://replit.com/@yasithasamujit2/FORZEN-MD${text}`)
                 await Void.sendMessage(citel.chat, { image: h })
                 return
             }
             let buttonMessaged = {
-                image: { url: 'https://citel-x.herokuapp.com/session' },
+                image: { url: 'https://replit.com/@yasithasamujit2/FORZEN-MD' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
@@ -103,7 +102,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
     cmd({
-        pattern: "url",
+        pattern: "img2url",
         alias : ['createurl'],
         category: "misc",
         filename: __filename,
@@ -233,44 +232,6 @@ cmd({
                 return citel.reply("Please mention any user.❌ ")
             }
 
-
-        }
-    )
-    //---------------------------------------------------------------------------
-cmd({
-            pattern: "alive",
-            category: "general",
-            filename: __filename,
-            desc: "is bot alive??"
-        },
-        async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by MR-SACHIYA.*`
-            const alivtxt = `
-*Hello, ${citel.pushName},*
-_This is  Black-Hunter-Bot._
-
-*Version:-* _0.0.1_
-*Uptime:-* _${runtime(process.uptime())}_
-*Developer:-* MR-SACHIYA
-*Supporter:-* MR-KALINDU 
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
-
-_Type ${prefix}menu for my command list._
-
-_Powered by SACHIYA & MR-KALINDU_
-`;
-            let aliveMessage = {
-                image: {
-                    url: await botpic(),
-                },
-                caption: alivtxt,
-                footer: tlang().footer,
-                headerType: 4,
-            };
-             return Void.sendMessage(citel.chat, aliveMessage, {
-                quoted: citel,
-            });
 
         }
     )
