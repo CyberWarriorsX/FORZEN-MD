@@ -115,14 +115,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/yasiyaofc/FORZEN-MD')
+        let { data } = await axios.get('https://github.com/repos/yasiyaofc/FORZEN-MD')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
 *🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
 *Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
-*Deploy Your Own:*-
-citel-x.herokuapp.com`
+*Bot Owner:wa.me/+94760018802*-
+https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -130,7 +130,7 @@ citel-x.herokuapp.com`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Secktor-Repo",
+                    title: "FORZEN-repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -162,9 +162,9 @@ cmd({
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
-*🕸Version:* 0.0.7
+*🕸Version:* 1.0.0
 *👤Owner:*  ${Config.ownername}
-*Powered by ${tlang().title}*
+*Powered by YASIYA-OFC*
 `;
         let buttonMessaged = {
             image: {
@@ -201,8 +201,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in Secktor*"
-str+=`1. SECKTOR\n2. ADAM\n3. AYANOKOJI\n4. EDITH\n5. FRIDAY\n6. GENOS\n7. GIDEON\n8. GOKU\n9. LUFFY\n10. NARUTO\n11. NEZUKO\n12. PARKER\n13. ZEROTWO\n14. Eren Jeager(Coming Soon)\n\n these are the themes of Secktor Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*All available themes in FORZEN-MD*"
+str+=`1. FORZEN-MD\n\n these are the themes of Forzen-md Userbot.\_Reply ${prefix}setvar THEME:FORZEN-MD`
 return citel.reply(str)
     
 }
