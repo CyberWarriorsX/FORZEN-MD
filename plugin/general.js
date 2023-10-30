@@ -1,14 +1,14 @@
-
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : BLACK-HUNTER
- * @author : MR-SACHIYA1 <https://github.com/MR-SACHIYA1>
- * @description : BLACK-HUNTER,A Multi-functional whatsapp bot.
+ * @project_name : FORZEN-MD
+ * @author : YASIYA-OFC <https://github.com/yasiyaofc>
+ * @description : FORZEN-MD,A Multi-functional whatsapp bot.
  * @version 0.0.1
  **/
+//---------------------------------------------------------------------------
 
 const { tlang, botpic, cmd, prefix, runtime, Config , sleep } = require('../lib')
 const axios = require('axios')
@@ -115,12 +115,12 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/yasiyaofc/FORZEN-MD')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* citel-x.herokuapp.com/repo
-*Group:* citel-x.herokuapp.com/support
+*🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
+*Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
 *Deploy Your Own:*-
 citel-x.herokuapp.com`
         let buttonMessaged = {
