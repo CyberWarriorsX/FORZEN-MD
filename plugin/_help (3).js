@@ -1,13 +1,14 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : BLACK-HUNTER
- * @author : MR-SACHIYA1 <https://github.com/MR-SACHIYA1>
- * @description : BLACK-HUNTER,A Multi-functional whatsapp bot.
+ * @project_name : FORZEN-MD
+ * @author : YASIYA-OFC <https://github.com/yasiyaofc>
+ * @description : FORZEN-MD,A Multi-functional whatsapp bot.
  * @version 0.0.1
  **/
+
 
 const os = require('os')
 const moment = require("moment-timezone")
@@ -20,15 +21,15 @@ const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "help",
-            alias: ["menu"],
-            desc: "Help list",
+            pattern: "panel",
+            alias: ["panel"],
+            desc: "panel list",
             category: "general",
             react: "✨",
             filename: __filename
         },
         async(Void, citel, text) => {
-            const { commands } = require('../lib');
+            const { plugin } = require('../lib');
             if (text.split(" ")[0]) {
                 let arr = [];
                 const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
@@ -58,8 +59,8 @@ Secktor.cmd({
                     '```' + `│ ╭──────────────◆
 │ │ User:- ${citel.pushName}
 │ │ Theme:- ${tlang().title}
-│ │ DEVELOPER:- MR-SACHIYA
-│ │ SUPPORTER:- MR-KALINDU
+│ │ DEVELOPER:- YASIYA-OFC
+│ │ SUPPORTER:- MR-INDUWARA
 │ │ Prefix:- [ ${prefix} ]
 │ │ Owner:- ${Config.ownername}
 │ │ Plugins:- ${commands.length}
@@ -82,7 +83,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*DEVELOPED BY SACHIYA & MR-KALINDU ❤️*`
+                str+= `*DEVALOPER MR YASIYA OFC*`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
@@ -93,12 +94,12 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "list",
-            desc: "list menu",
+            pattern: "panel2",
+            desc: "list2 menu",
             category: "general"
         },
         async(Void, citel) => {
-            const { commands } = require('../lib');
+            const { plugin } = require('../lib');
             let str = `
 ╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
             str += `
@@ -169,7 +170,7 @@ Secktor.cmd({
     filename: __filename
 },
 async(Void, citel, text) => {
- const { commands } = require('../lib');
+ const { plugin } = require('../lib');
  let arr = [];
         const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
         if (!cmd) return await citel.reply("*❌No Such commands.*");
