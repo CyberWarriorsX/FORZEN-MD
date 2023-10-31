@@ -54,11 +54,11 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────《 `𝐅𝐎𝐑𝐙𝐄𝐍 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓` 》─────⊷\n`
+                let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
 │ │ USER:- ${citel.pushName}
-│ │ THEME:- ${tlang().title}
+│ │ BOT NAME:- FORZEN-MD
 │ │ DEVELOPER:- YASIYA-OFC
 │ │ SUPPORTER:- MR-INDUWARA
 │ │ PREFIX:- [ ${prefix} ]
