@@ -4,7 +4,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 const { DBM } = require('postgres_dbm')
 const Heroku = require('heroku-client')
 const db_pool = new DBM({
-    db: config.DATABASE_URL
+    db: config.OWNER_NUMBER
 })
 
 const heroku = new Heroku({
