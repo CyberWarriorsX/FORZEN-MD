@@ -8,6 +8,7 @@ var dlsize = 1000 // 1000mb
 //ғᴏʀᴢᴇɴ ᴍᴅ
 cmd({
             pattern: "tts",
+            react: "🎤",
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
@@ -142,6 +143,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "play",
+            react: "🎧",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
             filename: __filename,
@@ -344,6 +346,7 @@ cmd({
 
 cmd({
             pattern: "ytmp4",
+            react: "🎥",
             desc: "Downloads video from youtube.",
             category: "downloader",
             filename: __filename,
@@ -412,6 +415,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "ytmp3",
+        react: "🎧",
         desc: "Downloads audio by yt link.",
         category: "downloader",
         use: '<yt video url>',
