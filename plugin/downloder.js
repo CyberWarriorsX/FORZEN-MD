@@ -36,6 +36,7 @@ cmd({
      //---------------------------------------------------------------------------
      cmd({
         pattern: "yts",
+        react: "🔎",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
         filename: __filename,
@@ -69,6 +70,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "video",
+            react: "🎬",
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
@@ -86,9 +88,9 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎶
+                citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎥
             
-❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
+🎬 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
@@ -236,6 +238,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "mediafire",
+            react: "🗃️",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
             filename: __filename,
@@ -268,6 +271,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "audio",
+            react: "🎶",
             alias :['song'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
@@ -287,7 +291,7 @@ cmd({
             let randomName = getRandom(".mp3");
             citel.reply(`*FORZEN MD SONG DOWNLOADER* 🎶
             
-❄️ *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
+🎼 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
 ⬆️ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗:* ${anu.ago}
@@ -484,6 +488,7 @@ cmd({
   //---------------------------------------------------------------------------
 cmd({
         pattern: "ytdoc",
+        react: "📹",
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
         use: '<ytdoc video url>',
