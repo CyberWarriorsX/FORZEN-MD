@@ -164,8 +164,7 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-          ❄️ *ғᴏʀᴢᴇɴ-ᴍᴅ* ❄️
-*👨‍💻 FORZEN MD WHATSAPP USER BOT SYSTEM INFO 👨‍💻*
+*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
 *⚡Speed:* ${latensie.toFixed(4)} ms
 
@@ -175,7 +174,7 @@ cmd({
 
 *👤Owner:*  ${Config.ownername}
 
-_*Powered by YASIYA-OFC*_
+_*Powered By YASIYA-OFC*_
 `;
         let buttonMessaged = {
             image: {
