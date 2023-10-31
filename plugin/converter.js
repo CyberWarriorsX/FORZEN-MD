@@ -19,6 +19,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
     //---------------------------------------------------------------------------
     cmd({
         pattern: "photo",
+        react: "🏜️",
         desc: "Makes photo of replied sticker.",
         category: "converter",
         use: '<reply to any gif>',
@@ -52,6 +53,7 @@ if (mime =="imageMessage" || mime =="stickerMessage")
 
 cmd({
          pattern: "vv",
+         react: "🎄",
          alias : ['viewonce','retrive'],
          desc: "Flips given text.",
          category: "misc",
@@ -246,6 +248,7 @@ filename: __filename,
 )
 cmd({
     pattern: "toaudio",
+    react: "🪗",
     alias:['mp3','tomp3'],
     desc: "changes type to audio.",
     category: "converter",
