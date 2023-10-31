@@ -1,13 +1,14 @@
 /**
- Copyright (C) 2022.
+ Copyright (C) 2023.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : BLACK-HUNTER
- * @author : MR-SACHIYA1 <https://github.com/MR-SACHIYA1>
- * @description : BLACK-HUNTER,A Multi-functional whatsapp bot.
+ * @project_name : FORZEN-MD
+ * @author : YASIYA-OFC <https://github.com/yasiyaofc>
+ * @description : FORZEN-MD,A Multi-functional whatsapp bot.
  * @version 0.0.1
  **/
+
 
 const os = require('os')
 const moment = require("moment-timezone")
@@ -20,8 +21,8 @@ const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "help",
-            alias: ["menu"],
+            pattern: "puka",
+            alias: ["puka"],
             desc: "Help list",
             category: "general",
             react: "✨",
@@ -93,8 +94,8 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "list",
-            desc: "list menu",
+            pattern: "lpo",
+            desc: "list po",
             category: "general"
         },
         async(Void, citel) => {
