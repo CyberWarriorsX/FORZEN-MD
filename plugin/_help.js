@@ -54,31 +54,31 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
+                let str = `╭────《 `𝐅𝐎𝐑𝐙𝐄𝐍 𝐌𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
-│ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
+│ │ USER:- ${citel.pushName}
+│ │ THEME:- ${tlang().title}
 │ │ DEVELOPER:- YASIYA-OFC
 │ │ SUPPORTER:- MR-INDUWARA
-│ │ Prefix:- [ ${prefix} ]
-│ │ Owner:- ${Config.ownername}
-│ │ Plugins:- ${commands.length}
-│ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ PREFIX:- [ ${prefix} ]
+│ │ OWNER:- ${Config.ownername}
+│ │ PLUGINS:- ${commands.length}
+│ │ USERS:- ${total}
+│ │ UPTIME:- ${runtime(process.uptime())}
+│ │ MEM:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
                 for (const category in cmds) 
                 {
-                   str += `╭────⭐️ *${tiny(category)}* ⭐️\n` ;
-                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* ⭐️\n` ;      
-                        for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
+                   str += `╭────🧙‍♂️ *${tiny(category)}* 🧙‍♂️\n` ;
+                   if(text.toLowerCase() == category.toLowerCase()){ str = `╭─────❏ *${tiny(category)}* 🧙‍♂️\n` ;      
+                        for (const plugins of cmds[category]) { str += `│🎋⃟☃️ ${fancytext(plugins,1)}\n` ; }
                         str += `╰━━━━━━━━━━━━━──⊷\n`  ;
                         break ;
                    }
-                   else { for (const plugins of cmds[category]) { str += `│ ${fancytext(plugins,1)}\n` ; }
+                   else { for (const plugins of cmds[category]) { str += `│🎋⃟☃️ ${fancytext(plugins,1)}\n` ; }
                          str += `╰━━━━━━━━━━━━━━──⊷\n`  ; 
                    }
   
