@@ -124,11 +124,11 @@ cmd({
 
 *🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
 
-*Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
+*👨‍💻 Support Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
 
-*Bot Owner:wa.me/+94760018802*
+*💃 Bot Owner:wa.me/+94760018802*
 
-https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
+*⚡ Heroku Develop:* https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -164,8 +164,9 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-❄️ *ғᴏʀᴢᴇɴ-ᴍᴅ* ❄️
-*🌟Description: *FORZEN MD WHATSAPP USER BOT SYSTEM INFO.*
+             ❄️ *ғᴏʀᴢᴇɴ-ᴍᴅ* ❄️
+	     
+✨ *FORZEN MD WHATSAPP USER BOT SYSTEM INFO.* ✨
 
 *⚡Speed:* ${latensie.toFixed(4)} ms
 
