@@ -21,7 +21,7 @@ const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "panel",
+            pattern: "allmenu",
             alias: ["panel"],
             desc: "panel list",
             category: "general",
@@ -94,7 +94,7 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "panel2",
+            pattern: "alllist",
             desc: "list2 menu",
             category: "general"
         },
