@@ -18,7 +18,7 @@
     "description": "Put HEROKU API KEY",
      "required" :false
     },
-   "AUTO_STATUS_SAVER": {
+   "AUTO_BIO": {
     "description": "Automatically change bio.",
      "required" :false
       },
