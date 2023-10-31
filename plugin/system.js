@@ -103,6 +103,7 @@ cmd({
     //---------------------------------------------------------------------------
     cmd({
         pattern: "img2url",
+        react: "🖇️",
         alias : ['createurl'],
         category: "misc",
         filename: __filename,
@@ -207,6 +208,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ban",
+            react: "🚫",
             category: "owner",
             filename: __filename,
             desc: "Bans user from using bot."
