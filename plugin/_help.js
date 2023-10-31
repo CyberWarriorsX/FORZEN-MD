@@ -21,11 +21,11 @@ const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "ceriyasiyahutto",
-            alias: ["puka"],
-            desc: "Help list",
+            pattern: "list",
+            alias: ["menu"],
+            desc: "menu list",
             category: "general",
-            react: "✨",
+            react: "📑",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -83,6 +83,7 @@ Secktor.cmd({
                    }
   
                 }
+                str+= `ㅤ\n`
                 str+= `*_❄️ ғᴏʀᴢᴇɴ ᴍᴅ ᴡᴀ ᴜsᴇʀ ʙᴏᴛ ❄️_*\n`
                 str+= `*_💃🏼 ᴅᴇᴠᴀʟᴏᴘᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 💃🏼_*`
                 let buttonMessaged = {
@@ -95,8 +96,8 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "ceriyasiyapako",
-            desc: "ceri yasiya",
+            pattern: "help",
+            desc: "help list",
             category: "general"
         },
         async(Void, citel) => {
