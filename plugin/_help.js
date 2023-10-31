@@ -57,16 +57,16 @@ Secktor.cmd({
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
                     '```' + `│ ╭──────────────◆
-│ │ USER:- ${citel.pushName}
-│ │ BOT NAME:- FORZEN-MD
-│ │ DEVELOPER:- YASIYA-OFC
-│ │ SUPPORTER:- MR-INDUWARA
-│ │ PREFIX:- [ ${prefix} ]
-│ │ OWNER:- ${Config.ownername}
-│ │ PLUGINS:- ${commands.length}
-│ │ USERS:- ${total}
-│ │ UPTIME:- ${runtime(process.uptime())}
-│ │ MEM:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+│ │ 🤵‍♂️ USER:- ${citel.pushName}
+│ │ ❄️ BOT NAME:- FORZEN-MD
+│ │ 💃🏼 DEVELOPER:- YASIYA-OFC
+│ │ 🌙 SUPPORTER:- MR-INDUWARA
+│ │ 🕹️ PREFIX:- [ ${prefix} ]
+│ │ 🤹‍♂️ OWNER:- ${Config.ownername}
+│ │ 🔌 PLUGINS:- ${commands.length}
+│ │ 🪄 USERS:- ${total}
+│ │ ⌚ UPTIME:- ${runtime(process.uptime())}
+│ │ 📟 MEM:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ ╰──────────────◆
 ╰───────────────⊷\n
 ` + '```'
@@ -83,8 +83,8 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*FORZEN MD WA USER BOT 💃🏼*`
-                str+= `*DEVELOPED BY YASIYA OFC 💃🏼*`
+                str+= `*_❄️ ғᴏʀᴢᴇɴ ᴍᴅ ᴡᴀ ᴜsᴇʀ ʙᴏᴛ ❄️_*\n`
+                str+= `*_💃🏼 ᴅᴇᴠᴀʟᴏᴘᴇʀ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 💃🏼_*`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
