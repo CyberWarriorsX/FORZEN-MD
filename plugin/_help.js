@@ -21,7 +21,7 @@ const Secktor = require('../lib/commands')
 
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "puka",
+            pattern: "ceriyasiyahutto",
             alias: ["puka"],
             desc: "Help list",
             category: "general",
@@ -59,8 +59,8 @@ Secktor.cmd({
                     '```' + `│ ╭──────────────◆
 │ │ User:- ${citel.pushName}
 │ │ Theme:- ${tlang().title}
-│ │ DEVELOPER:- MR-SACHIYA
-│ │ SUPPORTER:- MR-KALINDU
+│ │ DEVELOPER:- YASIYA-OFC
+│ │ SUPPORTER:- MR-INDUWARA
 │ │ Prefix:- [ ${prefix} ]
 │ │ Owner:- ${Config.ownername}
 │ │ Plugins:- ${commands.length}
@@ -83,7 +83,7 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*DEVELOPED BY SACHIYA & MR-KALINDU ❤️*`
+                str+= `*DEVELOPED BY YASIYA OFC ❤️*`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
@@ -94,8 +94,8 @@ Secktor.cmd({
     )
     //---------------------------------------------------------------------------
 Secktor.cmd({
-            pattern: "lpo",
-            desc: "list po",
+            pattern: "ceriyasiyapako",
+            desc: "ceri yasiya",
             category: "general"
         },
         async(Void, citel) => {
@@ -129,7 +129,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
-        react: "💜",
+        react: "🤹‍♂️",
         filename: __filename
     },
     async(Void, citel) => {
