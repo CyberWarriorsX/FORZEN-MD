@@ -17,6 +17,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 //---------------------------------------------------------------------------
 cmd({
             pattern: "join",
+	    react: "🎩",
             desc: "joins group by link",
             category: "owner",
             use: '<group link.>',
@@ -84,6 +85,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "support",
+	react: "👨‍💻",
         desc: "Sends official support group link.",
         category: "group",
         filename: __filename,
@@ -289,6 +291,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "profile",
+	    react: "🧙‍♂️",
             desc: "Shows profile of user.",
             category: "group",
             filename: __filename,
@@ -541,6 +544,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "promote",
+	    react: "🎖️",
             desc: "Provides admin role to replied/quoted user",
             category: "group",
             filename: __filename,
@@ -568,6 +572,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "kick",
+	    react: "👿",
             desc: "Kicks replied/quoted user from group.",
             category: "group",
             filename: __filename,
@@ -622,7 +627,8 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "group",
-            desc: "mute and unmute group.",
+	    react: "🧑‍🎨",
+	    desc: "mute and unmute group.",
             category: "group",
             filename: __filename,
         },
@@ -652,6 +658,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "setppgroup",
+	    react: "👨‍🎨",
             desc: "Sets a profile pic in Group..",
             category: "group",
             filename: __filename,
@@ -761,6 +768,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "demote",
+	react: "😼",
         desc: "Demotes replied/quoted user from group",
         category: "group",
         filename: __filename,
