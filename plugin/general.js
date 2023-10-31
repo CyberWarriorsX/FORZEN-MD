@@ -17,6 +17,7 @@ const fetch = require('node-fetch');
 //---------------------------------------------------------------------------
 cmd({
     pattern: "chat",
+    react: "🧠",
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
@@ -109,6 +110,7 @@ Void.sendMessage(citel.chat,{image:{url:data.data[0].url}})
 //---------------------------------------------------------------------------
 cmd({
         pattern: "repo",
+	react: "🏆",
         alias: ["git", "sc", "script"],
         desc: "Sends info about repo.",
         category: "general",
@@ -154,6 +156,7 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
         pattern: "system",
+	react: "📀",
         alias: ["about"],
         desc: "To check bot status",
         category: "general",
@@ -204,6 +207,7 @@ _*Powered By YASIYA-OFC*_
 //---------------------------------------------------------------------------
 cmd({
     pattern: "theme",
+    react: "🪁",
     desc: "To find all themes",
     category: "general",
     filename: __filename,
