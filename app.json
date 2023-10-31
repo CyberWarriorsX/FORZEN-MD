@@ -18,6 +18,10 @@
     "description": "Put HEROKU API KEY",
      "required" :false
     },
+   "AUTO_STATUS_SAVER": {
+    "description": "Automatically change bio.",
+     "required" :false
+      },
   "HEROKU_APP_NAME": {
     "description": "Put HEROKU APP NAME same as above.",
      "required" :false
