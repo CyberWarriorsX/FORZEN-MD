@@ -90,7 +90,7 @@ cmd({
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
                 citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎥
-            
+jpegThumbnail: log0,           
 🎬 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
 👩‍💻 *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:* ${anu.timestamp}
