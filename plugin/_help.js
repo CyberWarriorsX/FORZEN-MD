@@ -83,7 +83,8 @@ Secktor.cmd({
                    }
   
                 }
-                str+= `*DEVELOPED BY YASIYA OFC ❤️*`
+                str+= `*FORZEN MD WA USER BOT 💃🏼*`
+                str+= `*DEVELOPED BY YASIYA OFC 💃🏼*`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
