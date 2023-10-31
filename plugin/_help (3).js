@@ -32,7 +32,7 @@ Secktor.cmd({
             const { plugin } = require('../lib');
             if (text.split(" ")[0]) {
                 let arr = [];
-                const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
+                const cmd = plugin.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
                 if (!cmd) return await citel.reply("*❌No Such commands.*");
                 else arr.push(`*🍁Command:* ${cmd.pattern}`);
                 if (cmd.category) arr.push(`*🧩Category:* ${cmd.category}`);
@@ -42,7 +42,7 @@ Secktor.cmd({
                 return await citel.reply(arr.join('\n'));
             } else {
                 const cmds = {}
-                commands.map(async(command, index) => {
+                plugin.map(async(command, index) => {
                     if (command.dontAddCommandList === false && command.pattern !== undefined) {
                         if (!cmds[command.category]) cmds[command.category] = []
                         cmds[command.category].push(command.pattern)
@@ -114,11 +114,11 @@ Secktor.cmd({
 ┃ ⛥│  
 ┃ ⛥╰───────────
 ╰━━━━━━━━━━━──⊷\n`
-for (let i = 0; i < commands.length; i++) 
+for (let i = 0; i < plugin.length; i++) 
 {
-     if(commands[i].pattern==undefined) continue
+     if(plugin[i].pattern==undefined) continue
      str +=       `╭ ${i+1} *${fancytext(commands[i].pattern,1)}*\n` 
-     if(commands[i].desc=undefined) commands[i].desc=""
+     if(plugin[i].desc=undefined) commands[i].desc=""
      str += `╰➛ ${fancytext(commands[i].desc,1)}\n`
 }
             return await Void.sendMessage(citel.chat, { image: { url: THUMB_IMAGE }, caption: str })
@@ -172,7 +172,7 @@ Secktor.cmd({
 async(Void, citel, text) => {
  const { plugin } = require('../lib');
  let arr = [];
-        const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
+        const cmd = plugin.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
         if (!cmd) return await citel.reply("*❌No Such commands.*");
         else arr.push(`*🍁Command:* ${cmd.pattern}`);
         if (cmd.category) arr.push(`*🧩Type:* ${cmd.category}`);
