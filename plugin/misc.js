@@ -161,7 +161,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
          },
          async(Void, citel, text) => {
              const upt = runtime(process.uptime())
-             return citel.reply(`❄️_Uptime of FORZEN-MD_❄️ ${tlang().title}: ${upt}`)
+             return citel.reply(`❄️UPTIME OF ${tlang().title}: ${upt}`)
          }
      )
      //---------------------------------------------------------------------------
@@ -428,7 +428,7 @@ let buttons = [{
          
      //---------------------------------------------------------------------------
  cmd({
-             pattern: "antilink",
+             pattern: "antilinkkk",
              desc: "activates and deactivates antilink.\nuse buttons to toggle.",
              category: "group",
              filename: __filename,
@@ -460,7 +460,7 @@ let buttons = [{
          }
      )
      cmd({
-        pattern: 'ss',
+        pattern: 'sss',
         alias :['webss' , 'fullss'],
         category: "search",
         desc: "Provides screenshot of given url",
