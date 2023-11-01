@@ -166,19 +166,20 @@ cmd({
         const uptime = process.uptime();
         timestampe = speed();
         latensie = speed() - timestampe;
-        let ter = `
-*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
+        let ter = `Hey ${citel.pushName}\n\n
+────────────────────────── .°୭̥ ❁ 
+│*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
-*⚡Speed:* ${latensie.toFixed(4)} ms
+│*⚡Speed:* ${latensie.toFixed(4)} ms
 
-*🚦Uptime:* ${runtime(process.uptime())}
+│*🚦Uptime:* ${runtime(process.uptime())}
 
-*🕸Version:* 1.0.0
+│*🕸Version:* 1.0.0
 
-*👤Owner:*  ${Config.ownername}
+│*👤Owner:*  ${Config.ownername}
 
-_*Powered By YASIYA-OFC*_
-`;
+_*Powered By Yasiya Ofc*_
+°୭̥ ❁ ───────────────────────── .°୭̥ ❁`;
         let buttonMessaged = {
             image: {
                 url: await botpic(),
