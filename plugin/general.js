@@ -117,20 +117,20 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/yasiyaofc/FORZEN-MD')
+        let { data } = await axios.get('https://api.github.com/repos/yasiyaofc1/FORZEN-MD')
         let cap = `Hey ${citel.pushName}\n
 	
 *⭐ Total Stars:* ${data.stargazers_count} stars
 
 *🍽️ Forks:* ${data.forks_count} forks
 
-*🍁 Repo:* https://github.com/yasiyaofc/FORZEN-MD
+*🍁 Repo:* https://github.com/yasiyaofc1/FORZEN-MD
 
 *👨‍💻 Support Group:* https://chat.whatsapp.com/L2i6oDCjljt4mtBTUvTh7t
 
 *💃 Bot Owner:wa.me/+94760018802*
 
-*⚡ Heroku Develop:* https://heroku.com/deploy?template=https://github.com/yasiyaofc/FORZEN-MD`
+*⚡ Heroku Develop:* https://heroku.com/deploy?template=https://github.com/yasiyaofc1/FORZEN-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
