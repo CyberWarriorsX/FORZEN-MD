@@ -176,6 +176,8 @@ cmd({
 
 │*🕸Version:* 1.0.0
 
+│*UPTIME:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
+
 │*👤Owner:*  ${Config.ownername}
 
 _*Powered By Yasiya Ofc*_
