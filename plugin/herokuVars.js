@@ -59,7 +59,7 @@ if(Config.HEROKU_APP_NAME && Config.HEROKU_API_KEY ){
   const authToken = Config.HEROKU_API_KEY;
   
   
-         smd({
+         cmd({
              pattern: "setsudo",
              desc: "Makes wa me of quoted or mentioned user.",
              category: "tools",
@@ -92,7 +92,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
          })
 
 //--------------------------------------------------------------------
- smd({
+ cmd({
              pattern: "getsudo",
              desc: "Makes wa me of quoted or mentioned user.",
              category: "tools",
@@ -102,7 +102,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
 async(Suhail, msg, text) => {  return await  msg.reply(global.sudo);})
 //-------------------------------------------------------------------------
 
- smd({
+ cmd({
              pattern: "delsudo",
              desc: "Makes wa me of quoted or mentioned user.",
              category: "tools",
@@ -148,7 +148,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
  //------------------------------------------------------------------------       
         
         
-smd({
+cmd({
         pattern: "allvar",
         alias:['getallvar','allvars'],
         desc: "To get All  Heroku Vars",
@@ -177,7 +177,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`, { headers })
   
 });
 //----------------------------------------------------------------------------------
-smd({
+cmd({
         pattern: "addvar",
         desc: "To Set Heroku Vars",
         category: "tools",
@@ -212,7 +212,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
   });
 //-----------------------------------------------------------------------------------
 
-smd({
+cmd({
         pattern: "getvar",
         desc: "To Get A Heroku Var",
         category: "tools",
@@ -241,7 +241,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`, { headers })
 
 
 //----------------------------------------------------------------------------------
-smd({
+cmd({
         pattern: "setvar",
         desc: "To Set Heroku Vars",
         category: "tools",
