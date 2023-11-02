@@ -166,7 +166,7 @@ cmd({
         const uptime = process.uptime();
         timestampe = speed();
         latensie = speed() - timestampe;
-        let ter = `Hey ${citel.pushName}\n\n
+        let ter = ` Hey ${citel.pushName}\n\n
 ────────────────────────── .°୭̥ ❁ 
 │*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
