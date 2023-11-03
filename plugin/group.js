@@ -572,7 +572,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "kick",
-	    react: "👿",
+	    react: "👋",
             desc: "Kicks replied/quoted user from group.",
             category: "group",
             filename: __filename,
@@ -716,6 +716,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "add",
+            react: "🚫",
             desc: "Add that person in group",
             fromMe: true,
             category: "group",
@@ -739,7 +740,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "getjids",
+            pattern: "gjid",
             desc: "Sends chat id of every groups.",
             category: "group",
             filename: __filename,
@@ -768,7 +769,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "demote",
-	react: "😼",
+	react: "⤵️",
         desc: "Demotes replied/quoted user from group",
         category: "group",
         filename: __filename,
