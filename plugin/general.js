@@ -172,11 +172,11 @@ cmd({
 
 │*⚡Speed:* ${latensie.toFixed(4)} ms
 
-│*🚦Uptime:* ${runtime(process.uptime())}
+│*☃️Uptime:* ${runtime(process.uptime())}
 
-│*🕸Version:* 1.0.0
+│*✈️Version:* 1.0.0
 
-│*UPTIME:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
+│*⏳UPTIME:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
 
 │*👤Owner:*  ${Config.ownername}
 
