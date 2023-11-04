@@ -117,7 +117,8 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
      )
      //---------------------------------------------------------------------------
  cmd({
-             pattern: "steal",
+             pattern: "mysticker",
+             react: "🧩",
              desc: "Makes sticker of replied image/video.",
              category: "sticker",
              filename: __filename,
@@ -153,7 +154,7 @@ let a = await getBuffer(`https://citel-x.herokuapp.com/ttp/${text}`)
      //---------------------------------------------------------------------------
  cmd({
              pattern: "uptime",
-             react: "🤩",
+             react: "🪀",
              alias: ["runtime"],
              desc: "Tells runtime/uptime of bot.",
              category: "misc",
