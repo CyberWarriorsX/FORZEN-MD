@@ -166,7 +166,7 @@ cmd({
         const uptime = process.uptime();
         timestampe = speed();
         latensie = speed() - timestampe;
-        let ter = ` Hey ${citel.pushName}\n\n
+        let ter = `
 ────────────────────────── .°୭̥ ❁ 
 │*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
@@ -181,7 +181,8 @@ cmd({
 │*👤Owner:*  ${Config.ownername}
 
 _*Powered By Yasiya Ofc*_
-°୭̥ ❁ ───────────────────────── .°୭̥ ❁`;
+°୭̥ ❁ ───────────────────────── .°୭̥ ❁
+`;
         let buttonMessaged = {
             image: {
                 url: await botpic(),
