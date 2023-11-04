@@ -167,7 +167,6 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-────────────────────────── .°୭̥ ❁ 
 │*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
 │*⚡Speed:* ${latensie.toFixed(4)} ms
@@ -181,7 +180,6 @@ cmd({
 │*👤Owner:*  ${Config.ownername}
 
 _*Powered By Yasiya Ofc*_
-°୭̥ ❁ ───────────────────────── .°୭̥ ❁
 `;
         let buttonMessaged = {
             image: {
