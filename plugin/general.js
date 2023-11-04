@@ -170,16 +170,12 @@ cmd({
 │*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
 
 │*⚡Speed:* ${latensie.toFixed(4)} ms
-
 │*☃️Uptime:* ${runtime(process.uptime())}
-
 │*✈️Version:* 1.0.0
-
-│*⏳UPTIME:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
-
+│*📟MEMORY:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
 │*👤Owner:*  ${Config.ownername}
 
-_*Powered By Yasiya Ofc*_
+_*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*_
 `;
         let buttonMessaged = {
             image: {
