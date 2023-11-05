@@ -167,15 +167,15 @@ cmd({
         timestampe = speed();
         latensie = speed() - timestampe;
         let ter = `
-│*👨‍💻FORZEN MD SYSTEM INFOMATION👨‍💻*
+👨‍💻 _*FORZEN-MD SYSTEM INFO*_ 👨‍💻
 
-│*⚡Speed:* ${latensie.toFixed(4)} ms
-│*☃️Uptime:* ${runtime(process.uptime())}
-│*✈️Version:* 1.0.0
-│*📟MEMORY:* ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
-│*👤Owner:*  ${Config.ownername}
+*🌟Description:* FORZEN-MD WA SIMPLE USER BOT.
+*⚡Speed:* ${latensie.toFixed(4)} ms
+*⏳Uptime:* ${runtime(process.uptime())}
+*🧬Version:* 1.0.0
+*👤Owner:*  ${Config.ownername}
 
-_*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ*_
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʏᴀsɪʏᴀ ᴏғᴄ 💃🏻*
 `;
         let buttonMessaged = {
             image: {
