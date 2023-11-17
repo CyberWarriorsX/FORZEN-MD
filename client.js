@@ -1,28 +1,73 @@
-const pino = require('pino')
-const Config = require('../config');
+const pino = require("pino");
+const Config = require("../config");
 const { Boom } = require("@hapi/boom");
-const fs = require('fs-extra');
-const FileType = require('file-type')
-const path = require('path');
+const fs = require("fs-extra");
+const FileType = require("file-type");
+const path = require("path");
 const express = require("express");
 const app = express();
 const prefix = Config.HANDLERS[0];
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const { writeFile } = require("fs/promises");
-const events = require('./plugin')
+const events = require("./commands");
 const { exec, spawn, execSync } = require("child_process");
-const PhoneNumber = require('awesome-phonenumber')
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./exif')
-const { default: VoidConnect, BufferJSON,generateLinkPreviewIfRequired, WA_DEFAULT_EPHEMERAL, proto, generateWAMessageContent, generateWAMessage, AnyMessageContent, prepareWAMessageMedia, areJidsSameUser, getContentType, downloadContentFromMessage, DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, MessageRetryMap, generateForwardMessageContent, generateWAMessageFromContent, generateMessageID, makeInMemoryStore, jidDecode } = require("@sampandey001/baileys")
+const PhoneNumber = require("awesome-phonenumber");
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./exif');
+const { default: VoidConnect, BufferJSON, generateLinkPreviewIfRequired, WA_DEFAULT_EPHEMERAL, proto, generateWAMessageContent, generateWAMessage, AnyMessageContent, prepareWAMessageMedia, areJidsSameUser, getContentType, downloadContentFromMessage, DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, MessageRetryMap, generateForwardMessageContent, generateWAMessageFromContent, generateMessageID, makeInMemoryStore, jidDecode } = require("@sampandey001/baileys");
 const util = require("util");
 const Levels = require("discord-xp");
+const crypto = require('crypto');
+
+const fileToMonitor = './README.md';
+
+function calculateHash(filePath) {
+  const hash = crypto.createHash('sha256');
+  const fileData = fs.readFileSync(filePath);
+  hash.update(fileData);
+  return hash.digest('hex');
+}
+
+const initialHash = calculateHash(fileToMonitor);
+
+setInterval(() => {
+  const currentHash = calculateHash(fileToMonitor);
+  if (currentHash !== initialHash) {
+    console.log('File has been modified. Blocking the bot...');
+    process.exit(1);
+  }
+}, 10000);
+
+
+
+//const crypto = require('crypto');
+//function readCodeFile(filePath) {
+ // try {
+    //return fs.readFileSync(filePath, 'utf8');
+ // } catch (error) {
+   // console.error(`Error reading ${filePath}: ${error.message}`);
+   // process.exit(1);
+  //}
+//}
+
+//function checkCodeIntegrity() {
+ // const originalHash1 = '3c70fbc0446a985d24e183d8341a3879be483064c4179a744ec394342755cfac';
+  //const originalHash2 = '605a2c54d604b0bdd69de41b080e1bdbbbe6b9c073e8af7cb114d6113112d8d0';
+
+ // const code1 = readCodeFile('./README.md');
+  //const code2 = readCodeFile('./config.js');
+
+  //const hash1 = crypto.createHash('sha256').update(code1).digest('hex');
+  //const hash2 = crypto.createHash('sha256').update(code2).digest('hex');
+
+ // if (hash1 !== originalHash1 || hash2 !== originalHash2) {console.log('Modified code detected. This bot will not run.');process.exit(1);} else {console.log('Code integrity verified. Proceeding with the bot functionality.');}}checkCodeIntegrity();
 try {
     Levels.setURL(mongodb);
-    console.log("🌍 CONNECTING TO FORZEN-MD DATABASE")
+    console.log("🌍 CONNECTING TO YASIYA-MD DATABASE");
 } catch {
-    console.log("Could not connect with Mongodb please provide accurate uri check video for more inofo❗\nhttps://youtu.be/7YWI50BDO5op")
-    process.exit(0)
+    console.log("Could not connect with MongoDB; please provide an accurate URI. Check the video for more info: https://youtu.be/7YWI50BDO5op");
+    process.exit(0);
 }
+
 const { sck1, RandomXP, sck, plugindb, card } = require("../lib");
 const chalk = require("chalk");
 const fetch = require("node-fetch");
@@ -35,7 +80,7 @@ const speedofbot = require("performance-now");
 global.db = JSON.parse(fs.readFileSync(__dirname + "/database.json"));
 var CryptoJS = require("crypto-js");
 var prefixRegex = Config.prefix === "false" || Config.prefix === "null" ? "^" : new RegExp('^[' + Config.HANDLERS + ']');
-let cc = Config.sessionName.replace(/FORZEN-MD;;;/g, "");
+let cc = Config.sessionName.replace(/FORZEN-MD;;;/g, "").replace(/FORZEN-MD;;;/gi, ""); // DONT REMOVE BLACK;;; so you can connect BLACK md session id too
 async function MakeSession(){
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if(cc.length<30){
@@ -88,7 +133,7 @@ setTimeout(() => {
         const Void = VoidConnect({
             logger: pino({ level: 'fatal' }),
             printQRInTerminal: true,
-            browser: ['Secktor', 'safari', '1.0.0'],
+            browser: ['Izuku', 'safari', '1.0.0'],
             fireInitQueries: false,
             shouldSyncHistoryMessage: false,
             downloadHistory: false,
@@ -143,11 +188,17 @@ function _0x5159(){const _0x2791e6=['30rTKhCo','input','stateObject','caption','
                 const quoted = citel.quoted ? citel.quoted : citel;
                 const mime = (quoted.msg || quoted).mimetype || "";
 		let devss = '94760018802@s.whatsapp.net'
-		if (citel.sender === devss){ citel.react('👨‍💻') };   
-                const mrhansamala = '94781708673@s.whatsapp.net'
-		    if (citel.sender === sandesh){ citel.react('🧛‍♂️') }
-			    
-                if (citel.chat === "120363194914656749@g.us" && citel.sender!=='94760018802@s.whatsapp.net') return
+		if (citel.sender === devss){ citel.react('💃🏼') };   
+		 const devdev = '94740264767@s.whatsapp.net'
+		    if (citel.sender === devdev){ citel.react('🌙') };  
+		 const yasiya = '94782789774@s.whatsapp.net'
+		    if (citel.sender === yasiya){ citel.react('🥷🏻') };
+                 const ramesh = '94762397654@s.whatsapp.net'
+		    if (citel.sender === ramesh){ citel.react('⚖️') };
+                const sandesh = '94718799291@s.whatsapp.net'
+		    if (citel.sender === sandesh){ citel.react('⚡') }
+
+                if (citel.chat === "120363194914656749@g.us" && citel.sender!=='94782789774@s.whatsapp.net') return
                 let isCreator = [ hgg,devss,...global.owner].map((v) => v.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(citel.sender);
                 if (!isCreator && Config.disablepm === 'true' && icmd && !citel.isGroup) return
                 if (!isCreator && Config.WORKTYPE === 'private') return
@@ -155,7 +206,7 @@ function _0x5159(){const _0x2791e6=['30rTKhCo','input','stateObject','caption','
                 let checkban = await sck1.findOne({ id: citel.sender }) || await sck1.updateOne({ id: citel.sender }, { name: citel.pushName})
 		let checkg = await sck.findOne({ id: citel.chat }) || await new sck({ id: citel.chat }).save();
 		if(checkg.botenable==='false') return
-                if (icmd && checkban.ban !== 'false') return citel.reply(`*Hii ${citel.pushName},*\n_You are banned ❌ from using commands._\n_Please contact owner for further information._`)
+                if (icmd && checkban.ban !== 'false') return citel.reply(`*Hii ${citel.pushName},*\n_You are banned 🚶‍♀️ from using commands._\n_Please contact owner for further information._`)
 		}
 		const cmdName = icmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
                 if (icmd) {
@@ -210,7 +261,7 @@ function _0x5159(){const _0x2791e6=['30rTKhCo','input','stateObject','caption','
                 const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
                 const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
                 if (citel.isGroup) {
-                    console.log('Message in Group\nIn=> '+groupMetadata.subject+' '+citel.sender+'\nMessage:'+citel.body+'\n----------------------------')
+                    console.log('Message in Group\nIn=> '+groupMetadata.subject+' '+citel.sender+'\nMessage:'+citel.body+'\n..................')
                 }
                 if (!citel.isGroup) {
                     console.log('Message in Personal\nFrom=> '+citel.pushName+' '+citel.sender+'\nMessage:'+citel.body+'\n----------------------------')
@@ -235,10 +286,10 @@ function _0x5159(){const _0x2791e6=['30rTKhCo','input','stateObject','caption','
                                 if (pattern.test(chab)) {
                                     if (!isBotAdmins) {
                                         let buttonMessage = {
-                                            text: `*---  Link detected  ---*
-@${citel.sender.split('@')[0]} detected sending a link.
+                                            text: `* •Link has been detected• *
+@${citel.sender.split('@')[0]} has been detected sending a link.
 Promote ${tlang().title} as admin to kick
-link senders.
+link sender.
 `,
                                             mentions: [citel.sender],
                                             headerType: 4,
@@ -252,7 +303,7 @@ link senders.
                                     h = 'chat.whatsapp.com/' + response
                                     let patternn = new RegExp(`\\b${[h]}\\b`, 'ig');
                                     if (patternn.test(body)) {
-                                        citel.reply(`I won't remove you for sending this group link.`)
+                                        citel.reply(`you're lucky that I won't remove you for sending this group link.`)
                                         return
                                     }
                                     const key = {
@@ -262,7 +313,7 @@ link senders.
                                         participant: citel.sender
                                     }
                                     await Void.sendMessage(citel.chat, { delete: key })
-                                    citel.reply("Group Link Detected!!");
+                                    citel.reply("Group Link has been Detected!!");
 
                                     try {
                                         await Void.groupParticipantsUpdate(citel.chat, [citel.sender], 'remove')
@@ -300,7 +351,7 @@ link senders.
                             }
                             const { Configuration, OpenAIApi } = require("openai");
                             const configuration = new Configuration({
-                                apiKey: Config.OPENAI_API_KEY || "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",
+                                apiKey: Config.OPENAI_API_KEY || "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",
                             });
                             const openai = new OpenAIApi(configuration);
                             const completion = await openai.createCompletion({
@@ -327,10 +378,10 @@ link senders.
                                 citel.reply(cnt);
                                 return;
                             }
-                            //	if (!querie && !quoted) return citel.reply(`Hey there! ${pushname}. How are you doing these days?`);
+                            //	if (!querie && !quoted) return citel.reply(`Hey there! ${pushname}. How are you today ?`);
                             const { Configuration, OpenAIApi } = require("openai");
                             const configuration = new Configuration({
-                                apiKey: Config.OPENAI_API_KEY || "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",
+                                apiKey: Config.OPENAI_API_KEY || "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",
                             });
                             const openai = new OpenAIApi(configuration);
                             //	let textt = text ? text : citel.quoted && citel.quoted.text ? citel.quoted.text : citel.text;
@@ -350,45 +401,49 @@ link senders.
                     } catch (err) {
                         console.log(err)
                     }
-                }                var array = Config.antibadword.split(",")
-                array.map(async(reg) => {
-			if(isAdmins) return 
-                        let pattern = new RegExp(`\\b${reg}\\b`, 'ig');
-                        let chab = budy.toLowerCase()
-                        if (pattern.test(chab)) {
-                            await new Promise(r => setTimeout(r, 1000));
-                            try {
-                                const { warndb } = require('.');
-                                const timesam = moment(moment())
-                                    .format('HH:mm:ss')
-                                moment.tz.setDefault('Asia/KOLKATA')
-                                    .locale('id')
-                                await new warndb({
-                                    id: citel.sender.split("@")[0] + 'warn',
-                                    reason: 'For using Bad Word',
-                                    group: groupMetadata.subject,
-                                    warnedby: tlang().title,
-                                    date: timesam
-                                }).save()
-                                citel.reply(`
-*_hey ${citel.pushName}_*\n
-Warning!! Bad word detected.
-delete your message.
-`)
-                                sleep(3000)
-                                const key = {
-                                    remoteJid: citel.chat,
-                                    fromMe: false,
-                                    id: citel.id,
-                                    participant: citel.sender
-                                }
-                                await Void.sendMessage(citel.chat, { delete: key })
-                            } catch (e) {
-                                console.log(e)
-                            }
-                        }
-                        return
-                    })
+                }  var array = Config.antibadword.split(",");
+array.map(async (reg) => {
+    if (isAdmins) return;
+    const handleBadWords = async (message) => {
+        let pattern = new RegExp(`\\b${reg}\\b`, 'ig');
+        let chab = message.toLowerCase();
+        if (pattern.test(chab)) {
+            await new Promise((r) => setTimeout(r, 1000));
+            try {
+                const { warndb } = require('.');
+                const timesam = moment(moment()).format('HH:mm:ss');
+                moment.tz.setDefault('Africa/LAGOS').locale('id');
+                await new warndb({
+                    id: citel.sender.split("@")[0] + 'warn',
+                    reason: 'For using Bad Word',
+                    group: groupMetadata.subject,
+                    warnedby: tlang().title,
+                    date: timesam,
+                }).save();
+                citel.reply(`
+                    *_hey ${citel.pushName}_*\n
+                    excuse me!! Bad word has been detected.
+                    delete your message.
+                `);
+                sleep(3000);
+                const key = {
+                    remoteJid: citel.chat,
+                    fromMe: false,
+                    id: citel.id,
+                    participant: citel.sender,
+                };
+                await Void.sendMessage(citel.chat, { delete: key });
+            } catch (e) {
+                console.log(e);
+            }
+        }
+    };
+    if (isAdmins) {
+        return;
+    } else {
+        handleBadWords(budy);
+    }
+});
                 try {
                     let isNumber = (x) => typeof x === "number" && !isNaN(x);
                     let user = global.db.users[citel.sender];
@@ -427,7 +482,7 @@ delete your message.
                     let reason = user.afkReason || "";
                     reply(`
 Hello ${citel.pushName} \n\n, this is *${tlang().title}* a bot.
-Don't tag him,he is busy now. But Don't worry I assure you,I'll inform him As soon as possible😉.
+Don't tag him,he is busy now. But Don't worry I assure you,I'll inform him As soon as possible😁.
 ${reason ? "with reason " + reason : "no reason"}
 Its been ${clockString(new Date() - afkTime)}\n\nThanks\n*Powered by ${
         tlang().title
@@ -483,8 +538,8 @@ In ${clockString(new Date() - user.afkTime)}
                 }
             } catch (e) {
                 console.log(e)
-             //   await Void.sendMessage('919628516236@s.whatsapp.net',{text: util.format(mek)})
-               // await Void.sendMessage('919628516236@s.whatsapp.net',{text: util.format(e)})
+             //   await Void.sendMessage('2347039570336@s.whatsapp.net',{text: util.format(mek)})
+               // await Void.sendMessage('2347039570336@s.whatsapp.net',{text: util.format(e)})
             }
         })
  const { sck } = require('.')
@@ -503,7 +558,7 @@ async function startcron(time,chat,type){
                 })()
             }, {
                 scheduled: true,
-                timezone: "Asia/Kolkata"
+                timezone: "Africa/Lagos"
             })
     }
 async function foo(){	
@@ -526,7 +581,7 @@ async function fooz(){
     fooz()
 	    
 if(Config.autobio==true) {
-    console.log("💞𝐂𝐇𝐀𝐍𝐆𝐈𝐍𝐆 𝐀𝐁𝐎𝐔𝐓💞")
+    console.log("changing about")
     let cron = require('node-cron')
     cron.schedule('1 * * * *', async() => {
 async function updateStatus() {
@@ -535,15 +590,15 @@ const { fetchJson } = require('../lib');
   var resultt = await fetchJson(`https://api.popcat.xyz/pickuplines`);
   var textt = resultt.pickupline;
   var time = moment().format('HH:mm');
-  moment.tz.setDefault('Asia/Kolkata').locale('id');
-  var date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
-  var status = `⏰Time: ${time} \n💃🏼ғᴏʀᴢᴇɴ ᴍᴅ💃🏼`;
+  moment.tz.setDefault('Africa/Lagos').locale('id');
+  var date = moment.tz('Africa/Lagos').format('DD/MM/YYYY');
+  var status = `${textt} \n⏰Time: ${time} \nFORZEN-MD`;
   await Void.updateProfileStatus(status);
 }
 await updateStatus()
 }, {
     scheduled: true,
-    timezone: "Asia/Kolkata"
+    timezone: "Africa/Lagos"
 })
 
     }
@@ -632,8 +687,8 @@ await updateStatus()
                             }
                             let buttonMessage = {
                                 image: {url : ppUrl },
-                                caption: `[ PROMOTE - DETECTED ]\n\nName : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${metadata.subject}`,
-                                footer: `Secktor`,
+                                caption: `[ 𝗣𝗥𝗢𝗠𝗢𝗧𝗘 𝗛𝗔𝗦 𝗕𝗘𝗘𝗡  𝗗𝗘𝗧𝗘𝗖𝗧𝗘𝗗 ]\n\nName : @${num.split("@")[0]}\nStatus : from Member ◈ to Admin\nGroup : ${metadata.subject}`,
+                                footer: `Izuku`,
                                 mentions: [num],
                                 headerType: 4,
                             }
@@ -648,8 +703,8 @@ await updateStatus()
                             }
                             let buttonMessage = {
                                 image: { url : ppUrl },
-                                caption: `[ DEMOTE - DETECTED ]\n\nName : @${num.split("@")[0]}\nStatus : Admin -> Member`,
-                                footer: `Secktor`,
+                                caption: `[ 𝘿𝙀𝙈𝙊𝙏𝙀 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉  𝘿𝙀𝙏𝙀𝘾𝙏𝙀𝘿 ]\n\nName : @${num.split("@")[0]}\nStatus :from Admin ◈ Member`,
+                                footer: `Izuku`,
                                 mentions: [num],
                                 headerType: 4,
                             }
@@ -738,7 +793,7 @@ await updateStatus()
                 for (let i of kon) {
                     list.push({
                         displayName: await Void.getName(i + '@s.whatsapp.net'),
-                        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Void.getName(i + '@s.whatsapp.net')}\nFN:${global.OwnerName}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.email}\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${global.github}/Secktor-Md\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+                        vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await Void.getName(i + '@s.whatsapp.net')}\nFN:${global.OwnerName}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.email}\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${global.github}/IZUKU-MD\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
                     })
                 }
                 Void.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
@@ -765,7 +820,7 @@ await updateStatus()
         Void.ev.on('connection.update', async(update) => {
                 const { connection, lastDisconnect } = update
                 if (connection === "connecting") {
-                   console.log("ℹ️ Connecting to WhatsApp... Please Wait.");
+                   console.log("📡 Connecting to WhatsApp... Please Wait.");
                 }
                 if (connection === 'open') {
                     console.log("✅ Login Successful!");
@@ -775,8 +830,8 @@ await updateStatus()
                     for (let i = 0; i < check.length; i++) {
                         let AxiosData = await axios.get(check[i].url)
                         let data = AxiosData.data
-                        await fs.writeFileSync(__dirname + '/../plugin/' + check[i].id + '.js', data, "utf8")
-                    }
+                         await fs.writeFileSync(__dirname + '/../commands/' + check[i].id + '.js', data, "utf8")
+                     }
                     console.log("✅  Forzen Md Working Now!");
                     fs.readdirSync(__dirname + "/../plugin").forEach((plugin) => {
                         if (path.extname(plugin).toLowerCase() == ".js") {
@@ -798,7 +853,7 @@ await updateStatus()
 
                     }
                     await Void.groupAcceptInvite("L2i6oDCjljt4mtBTUvTh7t")	
-        return Void.sendMessage("94760018802@s.whatsapp.net", { text: `*_HEY FORZEN MD BOT OWNER_* , 🎲 I SUCCESFULLY CREATED YOUR BOT 🎲` })	
+        return Void.sendMessage("94760018802@s.whatsapp.net", { text: `*_HEY FORZEN-MD BOT OWNER_*\n🎲 I SUCCESFULLY CREATED YOUR BOT 🎲` })	
                 }
         
                if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401 ) {
@@ -1164,7 +1219,7 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Secktor-Md</title>
+    <title>Izuku-Md</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
@@ -1205,15 +1260,15 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from SamPandey001!
+      Hello from excel!
     </section>
   </body>
 </html>
 `
 app.get("/", (req, res) => res.type('html').send(html));
-app.listen(port, () => console.log(`ForzenMD Server listening on port http://localhost:${port}!`));
-    //=============================[to get message of New Update of this file.]===================================================
-    let file = require.resolve(__filename)
+app.listen(port, () => console.log(`Izuku Server listening on port http://localhost:${port}!`));
+    //=============================[to get message of New Update of this file.]==================================================
+let file = require.resolve(__filename)
     fs.watchFile(file, () => {
         fs.unwatchFile(file)
         console.log(`Update ${__filename}`)
@@ -1225,3 +1280,5 @@ app.listen(port, () => console.log(`ForzenMD Server listening on port http://loc
 function atob(str) {
   return Buffer.from(str, 'base64').toString('binary');
 }
+	
+//======================================================================
