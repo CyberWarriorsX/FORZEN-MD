@@ -89,7 +89,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply(`*NISAR MD VIDEO DOWNLOADER* 🎥
+                citel.reply(`*FORZEN MD VIDEO DOWNLOADER* 🎥
                 
 🎬 *𝗧𝗜𝗧𝗟𝗘:* ${anu.title}
 📺 *𝗩𝗜𝗘𝗪𝗦:* ${anu.views}
