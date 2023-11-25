@@ -47,7 +47,7 @@
 ----------
   
 ## ```REPLIT DEPLOYMENT```
-# [![Deploy](https://repl.it/badge/github/quiec/whatsasena)](https://repl.it/github/salmanytofficial/XLICON-MD)
+# [![Deploy](https://repl.it/badge/github/quiec/whatsasena)](https://repl.it/github/yasiyaofc1/FORZEN-MD)
 ﻿<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
    
 
