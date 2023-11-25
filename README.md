@@ -37,12 +37,12 @@
 ●.  ***Click [FORK](https://github.com/yasiyaofc/FORZEN-MD/fork)***
 
 ## ```SCAN QR CODE```
-[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@yasithasamujit2/FORZEN-MD)
+[![SCAN QR](https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway)](https://replit.com/@yasithasamujit2/FORZEN-MD)
 
 
 ﻿<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 ## ```HEROKU DEPLOYMENT```
-# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberWarriorsX/FORZEN-MD)
+# [![Deploy](https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway)](https://railway.app/new)
  
 ----------
   
